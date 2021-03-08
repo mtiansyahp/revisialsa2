@@ -56,9 +56,12 @@ export const MobileIcon = styled.div`
 
 export const NavMenu = styled.ul`
   display: flex;
+  font-size : 1rem;
+  font-weight: bold;
   align-items: center;
   list-style: none;
   text-align: center;
+
 
   @media screen and (max-width: 960px) {
     display: flex;
