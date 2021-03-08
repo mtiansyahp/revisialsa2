@@ -108,12 +108,15 @@ export const NavLinks = styled(Link)`
   text-decoration: none;
   padding: 0.5rem 1rem;
   height: 100%;
+  
 
   @media screen and (max-width: 960px) {
     text-align: center;
     padding: 2rem;
     width: 100%;
     display: table;
+    color : #FFF;
+    font-weight: bold;
 
     &:hover {
       color: #4b59f7;
