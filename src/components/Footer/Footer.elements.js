@@ -164,3 +164,8 @@ export const SocialIconLink = styled.a`
   color: #fff;
   font-size: 24px;
 `;
+
+export const Img = styled.img`
+  margin-right: 0.5rem;
+  max-width:100px;
+`;

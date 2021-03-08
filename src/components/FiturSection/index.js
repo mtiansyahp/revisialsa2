@@ -44,9 +44,10 @@ function FiturSection({
                 <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
-                    <InfoColumn>   
-                     <CarouselData></CarouselData>
-                    </InfoColumn>
+                   
+                    <Subtitle lightTextDesc={lightTextDesc}>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus </Subtitle>
+                    <Subtitle>Jadi Tunggu apalagi? Jadilah salah satu rekan kami dalam memajukan usaha Anda Sekarang juga</Subtitle>
+                   
                 <Link to='/sign-up'>
                 </Link>
               </TextWrapper>

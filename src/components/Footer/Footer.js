@@ -25,48 +25,40 @@ import {
   SocialIcon,
   WebsiteRights,
   SocialIcons,
-  SocialIconLink
+  SocialIconLink,
+  Img
 } from './Footer.elements';
+import logo from '../../assets/logo/Logo.png';
 
+console.log(logo);
 function Footer() {
   return (
     <FooterContainer>
       <FooterSubscription>
         <FooterSubHeading>
-          Join our exclusive membership to receive the latest news and trends
+          Gabung Bersama kami untuk mendapatkan keuntungan lebih banyak dan gratis
         </FooterSubHeading>
-        <FooterSubText>You can unsubscribe at any time.</FooterSubText>
+        <FooterSubText>Hubungi Kami Setiap Saat.</FooterSubText>
         <Form>
           <FormInput name='email' type='email' placeholder='Your Email' />
-          <Button fontBig>Subscribe</Button>
+          <Button fontBig>Hubungi</Button>
         </Form>
       </FooterSubscription>
       <FooterLinksContainer>
         <FooterLinksWrapper>
           <FooterLinkItems>
-            <FooterLinkTitle>About Us</FooterLinkTitle>
+            <FooterLinkTitle>Tentang Kami</FooterLinkTitle>
             <FooterLink to='/sign-up'>How it works</FooterLink>
-            <FooterLink to='/'>Testimonials</FooterLink>
-            <FooterLink to='/'>Careers</FooterLink>
-            <FooterLink to='/'>Investors</FooterLink>
+            <FooterLink to='/'>Testimoni</FooterLink>
             <FooterLink to='/'>Terms of Service</FooterLink>
           </FooterLinkItems>
           <FooterLinkItems>
-            <FooterLinkTitle>Contact Us</FooterLinkTitle>
-            <FooterLink to='/'>Contact</FooterLink>
-            <FooterLink to='/'>Support</FooterLink>
-            <FooterLink to='/'>Destinations</FooterLink>
-            <FooterLink to='/'>Sponsorships</FooterLink>
+            <FooterLinkTitle>Kontak Kami</FooterLinkTitle>
+            <FooterLink to='/'>Kontak</FooterLink>
+            <FooterLink to='/'>Bantuan</FooterLink>
           </FooterLinkItems>
         </FooterLinksWrapper>
         <FooterLinksWrapper>
-          <FooterLinkItems>
-            <FooterLinkTitle>Videos</FooterLinkTitle>
-            <FooterLink to='/'>Submit Video</FooterLink>
-            <FooterLink to='/'>Ambassadors</FooterLink>
-            <FooterLink to='/'>Agency</FooterLink>
-            <FooterLink to='/'>Influencer</FooterLink>
-          </FooterLinkItems>
           <FooterLinkItems>
             <FooterLinkTitle>Social Media</FooterLinkTitle>
             <FooterLink to='/'>Instagram</FooterLink>
@@ -79,10 +71,9 @@ function Footer() {
       <SocialMedia>
         <SocialMediaWrap>
           <SocialLogo to='/'>
-            <SocialIcon />
-            ULTRA
+          <Img src={logo} alt="" />
           </SocialLogo>
-          <WebsiteRights>ULTRA © 2020</WebsiteRights>
+          <WebsiteRights>ALSA © 2020</WebsiteRights>
           <SocialIcons>
             <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
               <FaFacebook />
@@ -92,7 +83,7 @@ function Footer() {
             </SocialIconLink>
             <SocialIconLink
               href={
-                '//www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A?view_as=subscriber'
+                '/'
               }
               rel='noopener noreferrer'
               target='_blank'

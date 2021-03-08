@@ -24,7 +24,7 @@ export const PricingWrapper = styled.div`
 `;
 
 export const PricingHeading = styled.h1`
-  color: #fff;
+  color: #000;
   font-size: 48px;
   margin-bottom: 24px;
 `;
