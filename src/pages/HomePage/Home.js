@@ -1,6 +1,6 @@
 import React from 'react';
-import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour,homeObjTest } from './Data';
-import { InfoSection,BannerSection,FiturSection, Pricing,  } from '../../components';
+import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour,homeObjFive,homeObjTest } from './Data';
+import { InfoSection,BannerSection,FiturSection, Card  } from '../../components';
 
 function Home() {
   return (
@@ -12,9 +12,11 @@ function Home() {
       {/* <InfoSection {...homeObjThree} /> */}
       {/* <InfoSection {...homeObjTwo} /> */}
       <BannerSection {...homeObjTwo} />
-      <Pricing />
+      <Card />
      
       <InfoSection {...homeObjFour} />
+      <BannerSection {...homeObjFive} />
+      <InfoSection {...homeObjTwo} />
     </>
   );
 }

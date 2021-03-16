@@ -60,10 +60,26 @@ export const homeObjFour = {
   headline: 'Fleksibel dan Dapat Diakses dimana saja',
   description:
     'Jangan pernah ragu untuk menjalankan aktivitas anda dengan Bisnis anda yang terjaga, Alsa Memberikan anda Akses terbaik untuk memantau bisnis Anda',
-  buttonLabel: 'Sign Up Now',
+  buttonLabel: 'Daftar Sekarang',
   imgStart: 'start',
   img: require('../../images/svg-1.svg').default,
   alt: 'Vault',
   start: 'true'
 };
 
+export const homeObjFive = {
+  primary: true,
+  lightBg: true,
+  lightTopLine: false,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: 'Alsa Mendukung Multi Platfrom yang membuat anda',
+  headline: 'Gratis dan Lengkap',
+  description:
+    'Alsa Memberikan anda fitur terbaik dan mudah lengkap dengan harga 0 Rupiah, Tanpa biaya apapun',
+  buttonLabel: 'Daftar Sekarang',
+  imgStart: 'start',
+  img: require('../../images/svg-1.svg').default,
+  alt: 'Vault',
+  start: 'true'
+};
