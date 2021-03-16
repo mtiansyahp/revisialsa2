@@ -18,10 +18,12 @@ import {
   WrapperCardCost,
   WrapperCardLength,
   WrapperCardFeatures,
-  WrapperCardFeature
+  WrapperCardFeature,
+  Image
   
 } from './Card.elements';
 import outlet from '../../assets/icon/outlet.png';
+
 
 
 console.log(outlet);
@@ -37,7 +39,7 @@ function Card() {
             <WrapperCard to='/sign-up'>
               <WrapperCardInfo>
                 <WrapperCardIcon>
-                {/* <Image src={outlet} alt="" /> */}
+                <Image src={outlet} alt="" />
                 </WrapperCardIcon>
                 <WrapperCardPlan>Detektif Baju</WrapperCardPlan>
                 <WrapperCardFeatures>
@@ -48,7 +50,7 @@ function Card() {
             <WrapperCard to='/sign-up'>
               <WrapperCardInfo>
                 <WrapperCardIcon>
-                {/* <Image src={outlet} alt="" /> */}
+                <Image src={outlet} alt="" />
                 </WrapperCardIcon>
                 <WrapperCardPlan>Detektif Baju</WrapperCardPlan>
                 <WrapperCardFeatures>
@@ -59,7 +61,7 @@ function Card() {
             <WrapperCard to='/sign-up'>
               <WrapperCardInfo>
                 <WrapperCardIcon>
-                {/* <Image src={outlet} alt="" /> */}
+                <Image src={outlet} alt="" />
                 </WrapperCardIcon>
                 <WrapperCardPlan>Detektif Baju</WrapperCardPlan>
                 <WrapperCardFeatures>
@@ -70,7 +72,7 @@ function Card() {
             <WrapperCard to='/sign-up'>
               <WrapperCardInfo>
                 <WrapperCardIcon>
-                {/* <Image src={outlet} alt="" /> */}
+                <Image src={outlet} alt="" />
                 </WrapperCardIcon>
                 <WrapperCardPlan>Detektif Baju</WrapperCardPlan>
                 <WrapperCardFeatures>

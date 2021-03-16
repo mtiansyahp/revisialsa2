@@ -1,5 +1,5 @@
 import React from 'react';
-import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour,homeObjFive,homeObjTest } from './Data';
+import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour,homeObjFive,homeObjSix,homeObjTest } from './Data';
 import { InfoSection,BannerSection,FiturSection, Card  } from '../../components';
 
 function Home() {
@@ -15,8 +15,10 @@ function Home() {
       <Card />
      
       <InfoSection {...homeObjFour} />
-      <BannerSection {...homeObjFive} />
-      <InfoSection {...homeObjTwo} />
+      <InfoSection {...homeObjFive} />
+      <InfoSection {...homeObjSix} />
+      {/* <BannerSection {...homeObjFive} /> */}
+      
     </>
   );
 }

@@ -169,3 +169,7 @@ export const Img = styled.img`
   margin-right: 0.5rem;
   max-width:100px;
 `;
+
+// export const Button = styled.button`
+//   color : #fff;
+// `;

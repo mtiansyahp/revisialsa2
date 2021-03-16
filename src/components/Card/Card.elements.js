@@ -62,10 +62,15 @@ export const WrapperCard = styled(Link)`
 
   &:nth-child(2) {
     // margin: 10px;
+    margin-right:10px;
+    margin-left:10px;
+
   }
 
   &:nth-child(4) {
     // margin: 10px;
+    margin-right:10px;
+    margin-left:10px;
   }
 
   &:hover {
@@ -126,5 +131,9 @@ export const WrapperCardFeature = styled.li`
   text-align: center;
   color : #000;
   font-weight: 500;
+`;
+
+export const Image = styled.img`
+ 
 `;
 

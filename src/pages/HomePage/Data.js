@@ -17,10 +17,10 @@ export const homeObjOne = {
 
 export const homeObjTwo = {
   primary: true,
-  lightBg: false,
-  lightTopLine: true,
-  lightText: true,
-  lightTextDesc: true,
+  lightBg: true,
+  lightTopLine: false,
+  lightText: false,
+  lightTextDesc: false,
   topLine: 'Kenapa Kami?',
   headline: 'Alasan kenapa kamu harus pakai Alsa',
   description:
@@ -52,19 +52,19 @@ export const homeObjThree = {
 
 export const homeObjFour = {
   primary: true,
-  lightBg: false,
-  lightTopLine: true,
-  lightText: true,
-  lightTextDesc: true,
-  topLine: 'Alsa Mendukung Multi Platfrom yang membuat anda',
-  headline: 'Fleksibel dan Dapat Diakses dimana saja',
+  lightBg: true,
+  lightTopLine: false,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: 'Alasan Kenapa anda harus pakai alsa',
+  headline: 'Gratis dan Lengkap',
   description:
-    'Jangan pernah ragu untuk menjalankan aktivitas anda dengan Bisnis anda yang terjaga, Alsa Memberikan anda Akses terbaik untuk memantau bisnis Anda',
-  buttonLabel: 'Daftar Sekarang',
-  imgStart: 'start',
+    'Alsa telah digunakan oleh lebih 10.000 aktif member yang telah memberikan kepercayaan pada Kami, Dengan berlangganan anda dapat Menikmati fitur dan juga Kemudahan dalam mengatur Outlet yang anda punya dalam satu Aplikasi dengan harga yang murah',
+  buttonLabel: '',
+  imgStart: '',
   img: require('../../images/svg-1.svg').default,
   alt: 'Vault',
-  start: 'true'
+  start: ''
 };
 
 export const homeObjFive = {
@@ -73,13 +73,30 @@ export const homeObjFive = {
   lightTopLine: false,
   lightText: false,
   lightTextDesc: false,
-  topLine: 'Alsa Mendukung Multi Platfrom yang membuat anda',
-  headline: 'Gratis dan Lengkap',
+  topLine: '',
+  headline: 'Multi Platfrom dan Terpecaya',
   description:
-    'Alsa Memberikan anda fitur terbaik dan mudah lengkap dengan harga 0 Rupiah, Tanpa biaya apapun',
-  buttonLabel: 'Daftar Sekarang',
+    'Alsa Memberikan anda kebebasan dalam menggunakan akses dan penggunaan di device apa saja dana dimana saja , anda tidak khawatir dengan device yang anda miliki',
+  buttonLabel: '',
   imgStart: 'start',
-  img: require('../../images/svg-1.svg').default,
+  img: require('../../images/svg-2.svg').default,
   alt: 'Vault',
   start: 'true'
+};
+
+export const homeObjSix = {
+  primary: true,
+  lightBg: true,
+  lightTopLine: false,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: '',
+  headline: 'Fleksibel dapat diakses dimana saja',
+  description:
+    'Kalian dapat mengakses Alsa dimana saja melewati Website Alsa maupun Aplikasi Mobile Alsa dengan fitur yang sama, Dengan ini Kamu tidak perlu Khawatir dengan Keterbatasan dalam penggunaan perangkat dalam Mengakses Alsa',
+  buttonLabel: 'Daftar Sekarang',
+  imgStart: '',
+  img: require('../../images/svg-3.svg').default,
+  alt: 'Vault',
+  start: ''
 };
