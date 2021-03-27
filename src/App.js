@@ -3,7 +3,7 @@ import GlobalStyle from './globalStyles';
 import Home from './pages/HomePage/Home';
 import Services from './pages/Services/Services';
 import Products from './pages/Products/Products';
-import SignUp from './pages/SignUp/SignUp';
+import SignUp from './pages/SignUp/Register';
 import Login from './pages/Login/Login';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop';

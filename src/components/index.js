@@ -7,3 +7,4 @@ export { default as FiturSection} from './FiturSection/index';
 export { default as CarouselData} from './Carousel/index';
 export { default as Feature } from './CardFitur/Index';
 export { default as Login } from './Login/index';
+export { default as Register } from './Register/index';
