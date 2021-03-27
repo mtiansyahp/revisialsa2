@@ -62,4 +62,4 @@ function Register({
   );
 }
 
-export default Login;
+export default Register;
