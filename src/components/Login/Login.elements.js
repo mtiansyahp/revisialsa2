@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const InfoSec = styled.div`
   color: #fff;
   padding: 160px 0;
-  background: ${({ lightBg }) => (lightBg ? '#fff' : '#ff21')};
+  background: ${({ lightBg }) => (lightBg ? '#fff' : '#000')};
 `;
 
 export const InfoRow = styled.div`
@@ -21,6 +21,7 @@ export const InfoColumn = styled.div`
   flex: 1;
   max-width: 50%;
   flex-basis: 50%;
+  
 
   @media screen and (max-width: 768px) {
     max-width: 100%;
@@ -81,7 +82,8 @@ export const Subtitle = styled.p`
 `;
 
 export const Form = styled.form`
-  display: flex;
+  
+  display: row;
   justify-content: center;
   align-items: center;
 
@@ -95,6 +97,7 @@ export const FormInput = styled.input`
   padding: 10px 20px;
   border-radius: 2px;
   margin-right: 10px;
+  margin-bottom: 10px;
   outline: none;
   border: none;
   font-size: 16px;

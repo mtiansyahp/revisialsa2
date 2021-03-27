@@ -43,7 +43,7 @@ function Login({
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Form>
                   <FormInput name='email' type='email' placeholder='Email' />
-                  
+                  <FormInput name='Password' type='password' placeholder='Password' />
                 </Form>
                 <Link to='/sign-up'>
                   <Button big fontBig primary={primary}>
