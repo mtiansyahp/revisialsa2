@@ -12,9 +12,9 @@ import {
   FormInput,
   ImgWrapper,
   Img
-} from './Login.elements';
+} from './Register.elements';
 
-function Login({
+function Register({
   primary,
   lightBg,
   topLine,
@@ -37,7 +37,9 @@ function Login({
               <ImgWrapper start={start}>
                 <Img src={img} alt={alt} />
               </ImgWrapper>
+              <TextWrapper>
               <TopLine>Jangkau Outletmu Dimanapun Anda Berada</TopLine>
+              </TextWrapper>
             </InfoColumn>
             <InfoColumn>
               <TextWrapper>
