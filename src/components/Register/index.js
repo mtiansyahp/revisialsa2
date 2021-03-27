@@ -45,13 +45,16 @@ function Register({
               <TextWrapper>
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Form>
-                  <FormInput name='email' type='email' placeholder='Email' />
+                  <FormInput name='NamaLengkap' type='name' placeholder='Nama Lengkap' />
+                  <FormInput name='Nomor' type='name' placeholder='Nomor Handphone' />
+                  <FormInput name='Email' type='email' placeholder='Email' />
                   <FormInput name='Password' type='password' placeholder='Password' />
                 </Form>
-                <Link to='/sign-up'>
+                <Link to='/'>
                   <Button big fontBig primary={primary}>
                     {buttonLabel}
                   </Button>
+                  
                 </Link>
               </TextWrapper>
             </InfoColumn >

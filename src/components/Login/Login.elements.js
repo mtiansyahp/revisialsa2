@@ -81,6 +81,15 @@ export const Subtitle = styled.p`
   color: ${({ lightTextDesc }) => (lightTextDesc ? '#FFFFF' : '#1c2237')};
 `;
 
+export const Regitertxt = styled.p`
+  max-width: 440px;
+  margin-bottom: 35px;
+  font-size: 18px;
+  line-height: 24px;
+  color: ${({ lightTextDesc }) => (lightTextDesc ? '#FFFFF' : '#FFFF')};
+`;
+
+
 export const Form = styled.form`
   
   display: row;

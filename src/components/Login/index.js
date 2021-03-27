@@ -11,7 +11,9 @@ import {
   Form,
   FormInput,
   ImgWrapper,
-  Img
+  Img,
+  Subtitle,
+  Regitertxt
 } from './Login.elements';
 
 function Login({
@@ -45,6 +47,11 @@ function Login({
                 <Form>
                   <FormInput name='email' type='email' placeholder='Email' />
                   <FormInput name='Password' type='password' placeholder='Password' />
+                  <Regitertxt>belum punya akun?
+                    <Link to='/sign-up'>
+                    <TopLine>Daftar</TopLine>
+                    </Link>
+                  </Regitertxt>
                 </Form>
                 <Link to='/sign-up'>
                   <Button big fontBig primary={primary}>
