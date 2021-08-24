@@ -39,7 +39,7 @@ function Login({
               <ImgWrapper start={start}>
                 <Img src={img} alt={alt} />
               </ImgWrapper>
-              <TopLine>Jangkau Outletmu Dimanapun Anda Berada</TopLine>
+              <TopLine></TopLine>
             </InfoColumn>
             <InfoColumn>
               <TextWrapper>

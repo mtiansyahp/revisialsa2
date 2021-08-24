@@ -38,7 +38,7 @@ function Register({
                 <Img src={img} alt={alt} />
               </ImgWrapper>
               <TextWrapper>
-              <TopLine>Jangkau Outletmu Dimanapun Anda Berada</TopLine>
+              <TopLine></TopLine>
               </TextWrapper>
             </InfoColumn>
             <InfoColumn>

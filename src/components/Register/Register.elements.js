@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const InfoSec = styled.div`
   color: #fff;
   padding: 160px 0;
-  background: ${({ lightBg }) => (lightBg ? '#fff' : '#ffff')};
+  background: ${({ lightBg }) => (lightBg ? '#fff' : '#f222')};
 `;
 
 export const InfoRow = styled.div`
@@ -43,6 +43,7 @@ export const TextWrapper = styled.div`
 
 export const ImgWrapper = styled.div`
   max-width: 555px;
+  padding:55px;
   display: flex;
   justify-content: ${({ start }) => (start ? 'flex-start' : 'flex-end')};
 `;
