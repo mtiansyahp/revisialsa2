@@ -10,7 +10,8 @@ export const homeObjOne = {
     'Kami Memberikan Pengalaman terbaik secara Gratis dimanapun Anda berada dan Kapan saja.',
   buttonLabel: 'Mulai Sekarang',
   imgStart: '',
-  img: require('../../images/bannere.jpg').default,
+  img: require('../../assets/images/bannere.jpg').default,
+  
   alt: 'Banner',
   start: ''
 };
@@ -27,7 +28,7 @@ export const homeObjTwo = {
     "Once you've joined, our team of specialist will reach out to you and get you set up in minutes.",
   buttonLabel: 'Learn More',
   imgStart: '',
-  img: require('../../images/bigBanner.png').default,
+  img: require('../../assets/images/bigBanner.png').default,
   alt: 'Vault',
   start: ''
 };
@@ -45,7 +46,7 @@ export const homeObjThree = {
     "Aplikasi Pintar dengan Segudang Fitur Keren ",
   buttonLabel: 'View Case Study',
   imgStart: 'start',
-  img: require('../../images/bigBanner.png').default,
+  img: require('../../assets/images/bigBanner.png').default,
   alt: 'Vault',
   start: 'true'
 };
@@ -62,7 +63,7 @@ export const homeObjFour = {
     'Alsa telah digunakan oleh lebih 10.000 aktif member yang telah memberikan kepercayaan pada Kami, Dengan berlangganan anda dapat Menikmati fitur dan juga Kemudahan dalam mengatur Outlet yang anda punya dalam satu Aplikasi dengan harga yang murah',
   buttonLabel: '',
   imgStart: '',
-  img: require('../../images/svg-1.svg').default,
+  img: require('../../assets/images/svg-1.svg').default,
   alt: 'Vault',
   start: ''
 };
@@ -79,7 +80,7 @@ export const homeObjFive = {
     'Alsa Memberikan anda kebebasan dalam menggunakan akses dan penggunaan di device apa saja dana dimana saja , anda tidak khawatir dengan device yang anda miliki',
   buttonLabel: '',
   imgStart: 'start',
-  img: require('../../images/svg-2.svg').default,
+  img: require('../../assets/images/svg-2.svg').default,
   alt: 'Vault',
   start: 'true'
 };
@@ -96,7 +97,7 @@ export const homeObjSix = {
     'Kalian dapat mengakses Alsa dimana saja melewati Website Alsa maupun Aplikasi Mobile Alsa dengan fitur yang sama, Dengan ini Kamu tidak perlu Khawatir dengan Keterbatasan dalam penggunaan perangkat dalam Mengakses Alsa',
   buttonLabel: 'Daftar Sekarang',
   imgStart: '',
-  img: require('../../images/svg-3.svg').default,
+  img: require('../../assets/images/svg-3.svg').default,
   alt: 'Vault',
   start: ''
 };
